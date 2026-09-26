@@ -1,0 +1,13 @@
+{
+  "name": "tubepilot-ec2-worker",
+  "version": "1.0.0",
+  "description": "Runs on AWS EC2 - controls FFmpeg to loop a video and push it as a live stream to YouTube RTMP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  }
+}
